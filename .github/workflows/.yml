@@ -1,0 +1,22 @@
+name: Fix Dependencies
+
+on:
+  workflow_dispatch: # 手动触发此任务
+
+jobs:
+  fix-dependencies:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Set npm Registry
+      run: |
+        npm config set registry https://registry.npmjs.org
+        npm cache clean --force
+
+    - name: Install Dependencies
+      run: |
+        rm -rf node_modules package-lock.json
+        npm install

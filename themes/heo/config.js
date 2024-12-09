@@ -63,11 +63,20 @@ const CONFIG = {
     {
       title_1: 'Income',
       img_1: '/images/heo/income.webp',
+      color_1: '#ffffff',
+      title_2: 'FWD',
+      img_2: '/images/heo/fwd.webp',
+      color_2: '#ffa31a'
+    },
+    {
+      title_1: 'iGP',
+      img_1: 'https://raw.githubusercontent.com/andyandybeginner/picture/refs/heads/main/iGP512.png',
       color_1: '#ffa31a',
       title_2: 'FWD',
       img_2: '/images/heo/fwd.webp',
       color_2: '#ffa31a'
-    }
+    },
+    https://raw.githubusercontent.com/andyandybeginner/picture/refs/heads/main/iGP512.png
   ],
 
   HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮

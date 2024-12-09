@@ -58,9 +58,17 @@ const CONFIG = {
     {
       title_1: 'Singlife',
       img_1: '/images/heo/sl-img-logo.webp',
-      color_1: '#989bf8',
-      title_2: 'Sketch',
-      img_2: '/images/heo/2023e0ded7b724a39f12d59c3dc8fbdc7cbe074202.webp',
+      color_1: '#ffffff',
+      title_2: 'Manulife',
+      img_2: '/images/heo/manulife.webp',
+      color_2: '#ffffff'
+    },
+    {
+      title_1: 'Income',
+      img_1: '/images/heo/income.webp',
+      color_1: '#ffffff',
+      title_2: 'FWD',
+      img_2: '/images/heo/fwd.webp',
       color_2: '#ffffff'
     }
   ],

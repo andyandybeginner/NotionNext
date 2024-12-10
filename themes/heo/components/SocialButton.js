@@ -18,6 +18,15 @@ const SocialButton = () => {
             <i className='transform hover:scale-125 duration-150 fab fa-github dark:hover:text-indigo-400 hover:text-indigo-600' />
           </a>
         )}
+          {siteConfig('CONTACT_FACEBOOK') && (
+          <a
+            target='_blank'
+            rel='noreferrer'
+            title={'facebook'}
+            href={siteConfig('CONTACT_FACEBOOK')}>
+            <i className='transform hover:scale-125 duration-150 fab fa-facebook dark:hover:text-indigo-400 hover:text-indigo-600' />
+          </a>
+        )}
         {siteConfig('CONTACT_TWITTER') && (
           <a
             target='_blank'
